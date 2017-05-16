@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 10px;
+  border: 1px solid red;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.message {
+  color: green;
+}

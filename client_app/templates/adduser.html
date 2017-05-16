@@ -1,0 +1,14 @@
+<div ng-controller="userActionController">
+    <div class="message">{{message}}</div>
+    <form novalidate>
+        Name:<br>
+        <input type="text" ng-model="userdata.name"><br>
+        Email:<br>
+        <input type="text" ng-model="userdata.email"> <br>
+        Phone:<br>
+        <input type="text" ng-model="userdata.phone">
+        <br><br>
+        <button ng-click="add(userdata)" ng-if="!userdata.id"> Save</button>
+        <button ng-click="update(userdata)" ng-if="userdata.id"> Update</button>
+    </form>
+</div>
